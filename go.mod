@@ -1,3 +1,8 @@
-module github.com/iam-veeramalla/go-web-app-devops
+module code-editor
 
-go 1.21.10
+go 1.19
+
+require (
+    github.com/gin-gonic/gin v1.8.1
+    github.com/lib/pq v1.10.5
+)
